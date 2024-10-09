@@ -18,6 +18,7 @@ async function getData() {
     }
 }
 getData();
+
 async function getPostById(postId) {
     try {
         const response = await axios.get(`https://jsonplaceholder.typicode.com/posts/${postId}`);
